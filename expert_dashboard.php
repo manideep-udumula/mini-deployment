@@ -20,7 +20,7 @@ include("expert_auth_session.php");
     <?php 
 require('db.php'); 
 $in=1;
-$q="select query from queries where answer isNULL";
+$q="select query from queries where answer is NULL";
 $r=mysqli_query($con,$q);
 while($p=mysqli_fetch_assoc($r))
 { 
