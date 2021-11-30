@@ -77,7 +77,7 @@ if($p=mysqli_fetch_assoc($re))
     if($p['answer'])
     {
        //Answered question 
-
+            echo $p['answer'];
 
        
     }
