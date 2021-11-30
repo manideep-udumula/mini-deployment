@@ -13,7 +13,7 @@ include("expert_auth_session.php");
     
     
     <div class="form">
-        <p>Hey, <?php echo $_SESSION['expertname']; ?>!</p>
+        <p>Hey, <?php echo $_SESSION['username']; ?>!</p>
         <p>You are now Expert dashboard page.</p>
         <p><a href="spandana.html">Logout</a></p>
 
