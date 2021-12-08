@@ -29,7 +29,8 @@ while($p=mysqli_fetch_assoc($r))
 <br>
 
 <form method="post">
-    <input type="text" "background:none ; outline:none;" name="query" value="<?php echo $p['query']; ?>" />
+    <label for="query"value="<?php echo $p['query']; ?>" ></label>
+  <!--- <input type="text" "background:none ; outline:none;" name="query" value="<?php echo $p['query']; ?>" /> --->
     <input type="text" name="answer"   placeholder="Answer here"/>
     <button  name="subm">Submit</button>   <br> <br>
 </form>
