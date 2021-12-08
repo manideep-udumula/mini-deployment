@@ -61,7 +61,7 @@ section{ display: flex;  }
 
 .leftside { width: 45%; height: auto; overflow: hidden; margin-top: 20px;}
 
-.leftside img{ overflow-x: visible;overflow-y: auto;r width: 600px;  height: 300px; }
+.leftside img{ width: 600px;  height: 300px; }
 
 .rightside{ width: 55%; height: 300px; color: white; text-align: center; margin-top: 80px; padding: 40px;}
 
@@ -94,6 +94,7 @@ section{ display: flex;  }
 }
 .submenu{
     display:none;
+    overflow: auto;
     padding: 0px;
    
 
