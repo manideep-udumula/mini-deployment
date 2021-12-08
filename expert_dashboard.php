@@ -64,7 +64,7 @@ if (isset($_POST['subm'])) {
     $result   = mysqli_query($con, $qu);
 
     if ($result) {
-         $q="select query from queries where answer is NULL";
+        
    // echo "<script> alert( 'Answered succefully  :)')</script>";
 } 
     else {
