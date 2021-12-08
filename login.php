@@ -9,8 +9,8 @@
     <nav>
   <div class="menu"> 
    <ul>
-    <li><a href="spandana.html">Home</a></li>
-       
+    <li><a href="index.php">Home</a></li>
+        
    </ul>
   </div>
  </nav>

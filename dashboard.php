@@ -42,7 +42,7 @@ include("auth_session.php");
 ?>
    
 <ul>
-  <li><a href="index.php">Home</a></li>
+  <li><a href="dashboard.php">Home</a></li>
   <li><a href="inbox.php">Inbox</a></li>
   <li><a href="contact.html">Contact</a></li>
   <li style="float:right"><a class="active" href="logout.php">Logout</a></li>

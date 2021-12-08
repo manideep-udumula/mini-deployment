@@ -5,7 +5,8 @@
     <title>Registration</title>
     <link rel="stylesheet" href="style.css"/>
 </head>
-<body bgcolor="#0f8a9d">
+<body bgcolor="#0f8a9d">s
+      <li><a href="index.php">Home</a></li>
     <center>
 <?php
     require('db.php');

@@ -14,7 +14,7 @@ include("expert_auth_session.php");
 <center>
 <body bgcolor="#0f8a9d">
     <ul>
-  <li><a href="index.php">Home</a></li>
+  <li><a href="expert_dashboard.php">Home</a></li>
   <li><a href="wwww.geeksforgeeks.com">News</a></li>
   <li><a href="contact.html">Contact</a></li>
   <li style="float:right"><a class="active" href="logout.php">Logout</a></li>
