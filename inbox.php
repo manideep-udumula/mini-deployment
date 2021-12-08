@@ -14,9 +14,6 @@
   <li><a href="contact.html">Contact</a></li>
   <li style="float:right"><a class="active" href="logout.php">Logout</a></li>
 </ul>
-
-
-
 <?php
 
 require('db.php');  
@@ -31,17 +28,16 @@ if($p=mysqli_fetch_assoc($re))
     if($p['answer'])
     {
        //Answered question 
-              echo "<h4>Question:</h4>",  $p['query'];
+              echo "<h4>Question:</h4>,  $p['query']";
         
 
-            echo  "<h4>Answer:</h4>", $p['answer']; 
+            echo  "<h4>Answer:</h4>, $p['answer']"; 
        
     }
     else
     {
         //Yet to be answered
-         echo "<h4>Question:</h4>",  $p['query'];
-         echo "Your question isn't answered yet!";
+
 
     }
 }
