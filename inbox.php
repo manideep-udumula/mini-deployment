@@ -28,13 +28,13 @@ if($p=mysqli_fetch_assoc($re))
 
     if($p['answer'])
     {
-         ?>
+        
    //Answered question 
-             <?php echo "<h4>Question:</h4>",  $p['query'];?>
+             echo "<h4>Question:</h4>",  $p['query'];
         
 
-           <?php echo  "<h4>Answer:</h4>", $p['answer'];?> 
-       <?php
+            echo  "<h4>Answer:</h4>", $p['answer'];
+       
     }
     else
     {
