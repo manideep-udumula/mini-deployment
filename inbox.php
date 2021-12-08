@@ -23,7 +23,7 @@ $user=$_SESSION['username'];
 $q="select query,answer from queries where username='$user'";
 
 $re=mysqli_query($con,$q);
-if($p=mysqli_fetch_assoc($re))
+if($p=mysqli_fetch_assoc($re)!=nill)
 {
 
     if($p['answer'])
