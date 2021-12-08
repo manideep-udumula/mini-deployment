@@ -32,11 +32,11 @@ while($p=mysqli_fetch_assoc($re))
         ?><p style="text-align: center;">Not yet responded</p><?php
         }
        else {
-            ?><p><?php echo $P['answer'];?></p><?php
+            ?><p><?php echo $p['answer'];?></p><?php
         } 
         ?>
         <br>
-        
+
         <?php
   
 
