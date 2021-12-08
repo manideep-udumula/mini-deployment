@@ -39,7 +39,7 @@ while($p=mysqli_fetch_assoc($re))
     else
     {
         //Yet to be answered
-            echo "not retrived"
+            echo "not retrived";
 
     }
 }
