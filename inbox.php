@@ -3,8 +3,10 @@
 <head>
    
     <title></title>
+    <link rel="stylesheet" href="style.css" />
 </head>
-<body>
+<body bgcolor="#0f8a9d">
+    <center>
 
 <?php
 include 'auth_session.php';
@@ -46,6 +48,6 @@ else{
     echo "No queries till now";
 }
 ?>
-
+</center>
 </body>
 </html>
