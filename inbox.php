@@ -25,7 +25,7 @@ while($p=mysqli_fetch_assoc($re))
 {
     ?>
 
-<p><b>Query:</b></p>&nbsp;
+<p><b>Query:</b></p><br>
 <p style="font-weight:bold;"><?php echo $p['query'];
 ?></p>
 
