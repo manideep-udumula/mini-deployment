@@ -5,7 +5,7 @@
     <title>Registration</title>
     <link rel="stylesheet" href="style.css"/>
 </head>
-<body>
+<body bgcolor="#0f8a9d">
 <?php
     require('db.php');
     // When form submitted, insert values into the database.

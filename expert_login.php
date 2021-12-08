@@ -5,7 +5,7 @@
     <title>Login</title>
     <link rel="stylesheet" href="style.css"/>
 </head>
-<body>
+<body bgcolor="#0f8a9d">
 <?php
     require('db.php');
     session_start();
@@ -42,7 +42,7 @@
         <input type="text" class="login-input" name="username" placeholder="Username" autofocus="true"/>
         <input type="password" class="login-input" name="password" placeholder="Password"/>
         <input type="submit" value="Login" name="submit" class="login-button"/>
-        <p class="link"><a href="contactus.html">New Registration</a></p>
+        <p class="link"><a href="contactform.html">New Registration</a></p>
   </form>
 <?php
     }

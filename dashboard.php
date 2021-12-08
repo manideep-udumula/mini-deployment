@@ -11,7 +11,7 @@ include("auth_session.php");
     <title>Dashboard - Client area</title>
     <link rel="stylesheet" href="style.css" />
 </head>
-<body>
+<body bgcolor="#0f8a9d">
 <?php
     
        require('db.php');  
@@ -77,8 +77,10 @@ if($p=mysqli_fetch_assoc($re))
     if($p['answer'])
     {
        //Answered question 
-            echo $p['answer'];
+              echo "<h4>Question:</h4>",  $p['query'];
+        
 
+            echo  "<h4>Answer:</h4>", $p['answer']; 
        
     }
     else
