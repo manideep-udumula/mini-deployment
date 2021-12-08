@@ -5,7 +5,7 @@
     <title>Registration</title>
     <link rel="stylesheet" href="style.css"/>
 </head>
-<body bgcolor="#0f8a9d">s
+<body bgcolor="#0f8a9d">
       <li><a href="index.php">Home</a></li>
     <center>
 <?php
