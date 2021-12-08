@@ -1,4 +1,4 @@
-<<!DOCTYPE html>
+  <!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
@@ -8,41 +8,34 @@
 <body>
 
 <?php
-include("auth_session.php");
-?>
+include 'auth_session.php';
 
-
-<?php
 require('db.php');  
 
 $user=$_SESSION['username'];
 
-$q="select query,answer from queries where username= ['$user']";
+$q="select query,answer from queries where username='$user'";
 
 $re=mysqli_query($con,$q);
-if (mysqli_num_rows($re)) {
-    // code...
+if (mysqli_num_rows($re)>0) {
+    
 
 while($p=mysqli_fetch_assoc($re))
 {
+<p>Query:</p>&nbsp;&nbsp;
+<p style="font-weight:bold;"><?php echo $p['query'];
+?></p>
+<?php
+    if($p['answer']==""){
+        ?><p style="text-align: center;">Not yet responded</p><?php
+        }
+        ?> 
+    }   
 
-    if($p['answer'])
-    {
-        
-   //Answered question   
-             echo $p['query'];
-        
-
-            echo  $p['answer'];
-       
-    }
-    else
-    {
-        //Yet to be answered
-            echo "not retrived";
-
-    }
 }
+}
+else{
+    echo "No queries till now";
 }
 ?>
 
