@@ -29,8 +29,13 @@ while($p=mysqli_fetch_assoc($re))
     if($p['answer']==""){
         ?><p style="text-align: center;">Not yet responded</p><?php
         }
-        ?> 
-    }   
+       else {
+            ?><p><?php echo $P['answer'];?></p><?php
+        } 
+        ?>
+        <br>
+        <?php
+  
 
 }
 }
