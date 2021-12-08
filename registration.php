@@ -6,7 +6,14 @@
     <link rel="stylesheet" href="style.css"/>
 </head>
 <body bgcolor="#0f8a9d">
-      <li><a href="index.php">Home</a></li>
+       <nav>
+  <div class="menu"> 
+   <ul>
+    <li><a href="index.php">Home</a></li>
+        
+   </ul>
+  </div>
+ </nav>
     <center>
 <?php
     require('db.php');
