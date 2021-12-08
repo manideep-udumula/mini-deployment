@@ -1,20 +1,19 @@
   <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
     <title></title>
 </head>
 <body>
 
 <?php
 include 'auth_session.php';
-
+$user=$_SESSION['username'];
 require('db.php');  
 
-$user=$_SESSION['username'];
 
-$q="select query,answer from queries where username='$user'";
+
+$q="select * from queries where username='$user'";
 
 $re=mysqli_query($con,$q);
 if (mysqli_num_rows($re)>0) {
@@ -22,9 +21,12 @@ if (mysqli_num_rows($re)>0) {
 
 while($p=mysqli_fetch_assoc($re))
 {
+    ?>
+
 <p>Query:</p>&nbsp;&nbsp;
 <p style="font-weight:bold;"><?php echo $p['query'];
 ?></p>
+
 <?php
     if($p['answer']==""){
         ?><p style="text-align: center;">Not yet responded</p><?php
@@ -34,6 +36,7 @@ while($p=mysqli_fetch_assoc($re))
         } 
         ?>
         <br>
+        
         <?php
   
 
