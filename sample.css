@@ -59,9 +59,9 @@ ul li{
 
 section{ display: flex;  }
 
-.leftside { width: 45%; height:50%; overflow: hidden; margin-top: 20px;}
+.leftside { width: 45%; height: auto; overflow: hidden; margin-top: 20px;}
 
-.leftside img{  width: 600px;  height: 500px; }
+.leftside img{  width: 600px;  height: 400px; }
 
 .rightside{ width: 55%; height: 300px; color: white; text-align: center; margin-top: 80px; padding: 40px;}
 
