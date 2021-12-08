@@ -1,6 +1,6 @@
 
 <?php
-
+include("expert_auth_session.php");
 require('db.php');  
 
 $user=$_SESSION['username'];
