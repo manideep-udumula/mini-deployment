@@ -11,21 +11,6 @@
    <ul>
     <li><a href="spandana.html">Home</a></li>
        
-    <li><a href="login.php">Login</a>
-        <div class="submenu">
-            <ul>
-                <li><a href="login.php">user</a></li>
-                <li><a href="expert_login.php">expert</a></li>
-            </ul>
-        </div>
-    </li>
-    <li><a href="registration.php">Registration</a>
-        <div class="submenu">
-            <ul>
-                <li><a href="login.php  ">user</a></li>
-            </ul>
-        </div>
-    </li>
    </ul>
   </div>
  </nav>
