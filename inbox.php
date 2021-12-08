@@ -23,17 +23,17 @@ $user=$_SESSION['username'];
 $q="select query,answer from queries where username='$user'";
 
 $re=mysqli_query($con,$q);
-if($p=mysqli_fetch_assoc($re)!=nill)
+if($p=mysqli_fetch_assoc($re))
 {
 
     if($p['answer'])
     {
         
-   //Answered question 
-             echo "<h4>Question:</h4>",  $p['query'];
+   //Answered question   
+             echo $p['query'];
         
 
-            echo  "<h4>Answer:</h4>", $p['answer'];
+            echo  $p['answer'];
        
     }
     else
