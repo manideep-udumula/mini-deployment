@@ -1,6 +1,10 @@
 
 <?php
 include("auth_session.php");
+?>
+
+
+<?php
 require('db.php');  
 
 $user=$_SESSION['username'];
