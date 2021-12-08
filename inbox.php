@@ -40,6 +40,8 @@ if($p=mysqli_fetch_assoc($re))
     else
     {
         //Yet to be answered
+         echo "<h4>Question:</h4>",  $p['query'];
+         echo "Your question isn't answered yet!"
 
     }
 }
