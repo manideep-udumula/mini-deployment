@@ -10,12 +10,17 @@ include("expert_auth_session.php");
 </head>
 <center>
 <body bgcolor="#0f8a9d">
-    
+    <ul>
+  <li><a href="index.php">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="contact.html">Contact</a></li>
+  <li style="float:right"><a class="active" href="logout.php">Logout</a></li>
+</ul>
     
     <div class="form">
         <p>Hey, <?php echo $_SESSION['username']; ?>!</p>
         <p>You are now Expert dashboard page.</p>
-        <p><a href="spandana.html">Logout</a></p>
+        
 
     <?php 
 require('db.php'); 
