@@ -41,7 +41,12 @@ include("auth_session.php");
     
 ?>
    
-       
+<ul>
+  <li><a href="index.php">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="contact.html">Contact</a></li>
+  <li style="float:right"><a class="active" href="logout.php">Logout</a></li>
+</ul>
    
 
     <center>
@@ -54,7 +59,7 @@ include("auth_session.php");
         <p><input type="text" name="query" placeholder="Type your Query here"></p></br>
         <input type="submit" name= "sub" text="Send">
 
-        <p><a href="spandana.html">Logout</a></p>
+       
 
     </form>
 </center>
