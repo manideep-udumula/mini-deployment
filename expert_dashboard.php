@@ -59,10 +59,11 @@ if (isset($_POST['subm'])) {
     $query=$_POST['query']; 
     //$queries= mysqli_real_escape_string($con, $queries);
     $user=$_SESSION['username'];
-    $q="UPDATE queries set answer = '$answer' where query='$query'";
+    $qu="UPDATE queries set answer = '$answer' where query='$query'";
 
-    $result   = mysqli_query($con, $q);
-
+    $result   = mysqli_query($con, $qu);
+$q="select query from queries where answer is NULL";
+$r=mysqli_query($con,$q);
     if ($result) {
         
    // echo "<script> alert( 'Answered succefully  :)')</script>";
