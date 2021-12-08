@@ -1,3 +1,17 @@
+<<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+</head>
+<body bgcolor="#0f8a9d">
+    <center>
+
+
+
+
+
 <?php
 
 require('db.php');  
@@ -25,3 +39,6 @@ if($p=mysqli_fetch_assoc($re))
     }
 }
 ?>
+</center>
+</body>
+</html>

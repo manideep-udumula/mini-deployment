@@ -12,7 +12,7 @@ include("expert_auth_session.php");
 <body bgcolor="#0f8a9d">
     <ul>
   <li><a href="index.php">Home</a></li>
-  <li><a href="#news">News</a></li>
+  <li><a href="wwww.geeksforgeeks.com">News</a></li>
   <li><a href="contact.html">Contact</a></li>
   <li style="float:right"><a class="active" href="logout.php">Logout</a></li>
 </ul>
@@ -35,7 +35,7 @@ while($p=mysqli_fetch_assoc($r))
 
 <form method="post">
     <!--<label for="answer"value="<?php echo $p['query']; ?>" ></label>-->
-  <input type="text" background: #0f8a9d ; outline:none; name="query" value="<?php echo $p['query']; ?>" />
+  <input type="Label" background: #0f8a9d ; outline:none; name="query" value="<?php echo $p['query']; ?>" />
     <input type="text" name="answer"   placeholder="Answer here"/>
     <button  name="subm">Submit</button>   <br> <br>
 </form>
