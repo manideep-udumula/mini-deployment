@@ -40,8 +40,8 @@
   </div>
   <div class="rightside"> 
    <h1><i>SPANDANA</i></h1>
-   <p>  Welcome to our website  </p>
-   <button onclick="aboutus.html">Welcome</button>
+   <p>  Welcome to our SPAANDANA  </p>
+   <button><a href="spandana.html">Welcome</a></button>
   </div>
   
  </section>
