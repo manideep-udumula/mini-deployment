@@ -20,6 +20,9 @@ $user=$_SESSION['username'];
 $q="select query,answer from queries where username= ['$user']";
 
 $re=mysqli_query($con,$q);
+if (mysqli_num_rows($re)) {
+    // code...
+
 while($p=mysqli_fetch_assoc($re))
 {
 
@@ -39,6 +42,7 @@ while($p=mysqli_fetch_assoc($re))
             echo "not retrived";
 
     }
+}
 }
 ?>
 
