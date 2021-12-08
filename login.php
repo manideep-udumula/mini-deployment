@@ -3,9 +3,32 @@
 <head>
     <meta charset="utf-8"/>
     <title>Login</title>
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="sample.css"/>
 </head>
 <body bgcolor="#0f8a9d">
+    <nav>
+  <div class="menu"> 
+   <ul>
+    <li><a href="spandana.html">Home</a></li>
+       
+    <li><a href="login.php">Login</a>
+        <div class="submenu">
+            <ul>
+                <li><a href="login.php">user</a></li>
+                <li><a href="expert_login.php">expert</a></li>
+            </ul>
+        </div>
+    </li>
+    <li><a href="registration.php">Registration</a>
+        <div class="submenu">
+            <ul>
+                <li><a href="login.php  ">user</a></li>
+            </ul>
+        </div>
+    </li>
+   </ul>
+  </div>
+ </nav>
     <center>
 <?php
     require('db.php');
