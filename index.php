@@ -40,7 +40,7 @@
   </div>
   <div class="rightside"> 
    <h1><i>SPANDANA</i></h1>
-   <p>  Welcome to our SPAANDANA  </p>
+   <p>  Welcome to our SPANDANA  </p>
    <button><a href="aboutus.html">Welcome</a></button>
   </div>
   
