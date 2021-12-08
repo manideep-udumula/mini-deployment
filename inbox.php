@@ -1,6 +1,6 @@
 
 <?php
-include("expert_auth_session.php");
+include("auth_session.php");
 require('db.php');  
 
 $user=$_SESSION['username'];
@@ -29,3 +29,4 @@ while($p=mysqli_fetch_assoc($re))
     }
 }
 ?>
+
