@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="style.css"/>
 </head>
 <body bgcolor="#0f8a9d">
+    <center>
 <?php
     require('db.php');
     // When form submitted, insert values into the database.
@@ -46,5 +47,6 @@
 <?php
     }
 ?>
+</center>
 </body>
 </html>
