@@ -92,9 +92,9 @@ section{ display: flex;  }
     text-decoration: none;
     color:rgb(0, 17, 255);
 }
-.submenu{
+.submenu: hover{
     display:none;
-    overflow: auto;
+
     padding: 0px;
    
 
