@@ -43,7 +43,7 @@ include("auth_session.php");
    
 <ul>
   <li><a href="index.php">Home</a></li>
-  <li><a href="#news">News</a></li>
+  <li><a href="inbox.php">Inbox</a></li>
   <li><a href="contact.html">Contact</a></li>
   <li style="float:right"><a class="active" href="logout.php">Logout</a></li>
 </ul>
@@ -68,32 +68,6 @@ include("auth_session.php");
     ?>
 
 
-<?php
 
-require('db.php');  
-
-$user=$_SESSION['username'];
-
-$q="select query,answer from queries where username='$user'";
-
-$re=mysqli_query($con,$q);
-if($p=mysqli_fetch_assoc($re))
-{
-    if($p['answer'])
-    {
-       //Answered question 
-              echo "<h4>Question:</h4>",  $p['query'];
-        
-
-            echo  "<h4>Answer:</h4>", $p['answer']; 
-       
-    }
-    else
-    {
-        //Yet to be answered
-
-    }
-}
-?>
 </body>
 </html>
