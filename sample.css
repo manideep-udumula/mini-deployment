@@ -92,7 +92,7 @@ section{ display: flex;  }
     text-decoration: none;
     color:rgb(0, 17, 255);
 }
-.submenu: hover{
+.submenu{
     display:none;
 
     padding: 0px;
